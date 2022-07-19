@@ -1,3 +1,2 @@
-# Todos los proyectos de Data Science
+# Todos los proyectos de datascience
 # Python 3.8.10# DataScience
-# DataScience
