@@ -42,7 +42,7 @@ def max_de_tres(n1, n2, n3):
         return n1
     else:
         return "son iguales"
-print(max_de_tres(1, 8, 5))
+print(max_de_tres(1, 3, 5))
     
 
 
