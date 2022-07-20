@@ -18,7 +18,7 @@ def maximo(n1, n2):
     else:
         return "son iguales"
 
-print(maximo(8, 5))
+print(maximo(30, 15))
 
 # EJERCICIO 2
 
