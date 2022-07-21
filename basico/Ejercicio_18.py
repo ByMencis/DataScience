@@ -8,6 +8,9 @@
 """
 
 
+from re import A, L
+
+
 def maximo(n1, n2):
     if n1 < n2:
         print("El valor máximo es {n2}")
@@ -55,8 +58,41 @@ print(max_de_tres(1, 3, 5))
     (Es cierto que python tiene la función len() incorporada, 
     pero escribirla por nosotros mismos resulta un muy buen ejercicio.
 """
-
+lista = ("Madrid", "Valencia", "Barcelona", "Toledo")
 def longitud():
-    pass
 
+ # EJERCICIO 4
+ _
+def es_vocal (c):
+    if c == "a" or c == "e" or c == "i" or c == "o" or c== "u":
+        return True
+
+    elif c == "A" or c == "E" or c == "I" or c == "O" or c == "U":
+        return True
+
+    return False
+
+caracter = input("introduce una letra por favor: ")
+print(es_vocal(caracter))
+
+# EJERCICIO 5
+
+""""
+     Escribir una función suma() y una función multip() que sumen y multipliquen
+    respectivamente todos los números de una lista.
+    Por ejemplo: sum([1,2,3,4]) debería devolver 10 y multip([1,2,3,4]) debería devolver 24.
+"""
+
+
+def  suma (n1, n2, n3):
+   if n1 * n2 * n3:
+        print("El valor es {}")
+print(suma(5, 6, 8))
+
+
+def  multip (n1, n2, n3):
+    if n1 * n2 * n3:
+        print("El valor es {}")
+    
+print(multip(5, 6, 8))
 print("Enhorabuena acabaste los ejercicios")
