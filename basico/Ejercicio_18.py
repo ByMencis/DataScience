@@ -7,10 +7,6 @@
     pero hacerla nosotros mismos es un muy buen ejercicio).
 """
 
-
-from re import A, L
-
-
 def maximo(n1, n2):
     if n1 < n2:
         print("El valor máximo es {n2}")
@@ -18,8 +14,7 @@ def maximo(n1, n2):
     elif n2 < n1:
         print("El valor máximo es {n1}")
         return n1
-    else:
-        return "son iguales"
+    
 
 print(maximo(30, 15))
 
@@ -35,17 +30,17 @@ print(maximo(30, 15))
 
 def max_de_tres(n1, n2, n3):
     if n1 < n2 < n3:
-        print("El valor máximo es {n3}")
-        return n3
+        return print("El valor máximo es {n3}")
     if n1 < n2 > n3:
-        print("El valor máximo es {n2}")
-        return n2
-    elif n3 < n2 < n1:
-        print("El valor máximo es {n1}")
-        return n1
+        return print("El valor máximo es {n2}")
+    if n1 > n2 > n3:
+        return print("El valor máximo es {n1}")
+    elif n1 == n2  == n3:
+        return
     else:
-        return "son iguales"
-print(max_de_tres(1, 3, 5))
+        return "Son iguales"
+
+print(max_de_tres(10, 8, 5))
     
 
 
@@ -58,7 +53,7 @@ print(max_de_tres(1, 3, 5))
     (Es cierto que python tiene la función len() incorporada, 
     pero escribirla por nosotros mismos resulta un muy buen ejercicio.
 """
-lista = ("Madrid", "Valencia", "Barcelona", "Toledo")
+lista = ("hola mundo")
 def longitud():
 
  # EJERCICIO 4
@@ -84,15 +79,11 @@ print(es_vocal(caracter))
 """
 
 
-def  suma (n1, n2, n3):
-   if n1 * n2 * n3:
-        print("El valor es {}")
-print(suma(5, 6, 8))
+def  suma ():
+ 
+      pass
 
+def  multip ():
+    pass
 
-def  multip (n1, n2, n3):
-    if n1 * n2 * n3:
-        print("El valor es {}")
-    
-print(multip(5, 6, 8))
 print("Enhorabuena acabaste los ejercicios")
