@@ -8,14 +8,6 @@
 
 def invertir_cadena(cadena):
     return cadena[::-1]
-
-
-def invertir_cadena_manual(cadena):
-    cadena_invertida = ""
-    for letra in cadena:
-        cadena_invertida = letra + cadena_invertida
-    return cadena_invertida
-
 print(invertir_cadena("estoy probando"))
 
 
@@ -37,13 +29,6 @@ def palindromo(cadena):
         fin -= 1
     return False
 
-def palindromo_recursivo(cadena, inicio, fin):
-    if inicio >= fin:
-        return True
-    if cadena[inicio] == cadena[fin]:
-        return palindromo_recursivo(cadena, inicio+1, fin-1)
-    else:
-        return False
 cadena = input("introduce una letra por favor: ")
 print(palindromo(cadena))
 
